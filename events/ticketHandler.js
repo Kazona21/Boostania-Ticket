@@ -37,7 +37,7 @@ module.exports = async (client) => {
                             '- Hãy Chờ Đội Ngũ Hỗ Trợ Xử Lý Yêu Cầu Của Bạn\n' +
                             '- Không Spam Trong Ticket\n'
                         )
-                        .setImage('https://cdn.discordapp.com/attachments/1398296723985666089/1409168070102220871/41e7cd8a-5926-4c44-9cec-0181d66fb6d2.png?ex=68ad0e48&is=68abbcc8&hm=cad31b247b1ff2bca9f940c2b0779b3f140955c8584a7fe95ad98a9816fafef9&')
+                        .setImage('https://cdn.discordapp.com/attachments/1398296723985666089/1409372160211816579/image.png?ex=68ad239b&is=68abd21b&hm=728ffdb69816d654eae2cc535938c04de2fe3e2873b63fda8442e0a504a926c6&')
                         .setFooter({ text: 'Boostania Ticket Bot!', iconURL: Icons.modIcon })
                         .setColor('#00FF00'); 
                         
@@ -176,3 +176,4 @@ module.exports = async (client) => {
         }
     });
 };
+
