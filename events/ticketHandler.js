@@ -72,13 +72,13 @@ module.exports = async (client) => {
 
                 const subjectInput = new TextInputBuilder()
                     .setCustomId('ticket_subject')
-                    .setLabel('Subject of your Ticket')
+                    .setLabel('Bạn Tạo Ticket Nhằm Mục Đích Gì ( Mua Hàng, Bảo Hành?)')
                     .setStyle(TextInputStyle.Short)
                     .setRequired(true);
 
                 const descriptionInput = new TextInputBuilder()
                     .setCustomId('ticket_description')
-                    .setLabel('Description of your Issue')
+                    .setLabel('Mô tả vấn đề của bạn')
                     .setStyle(TextInputStyle.Paragraph)
                     .setRequired(true);
 
@@ -176,4 +176,5 @@ module.exports = async (client) => {
         }
     });
 };
+
 
