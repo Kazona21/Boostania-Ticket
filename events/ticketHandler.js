@@ -39,7 +39,8 @@ module.exports = async (client) => {
                         )
                         .setImage('https://cdn.discordapp.com/attachments/1398296723985666089/1409372160211816579/image.png?ex=68ad239b&is=68abd21b&hm=728ffdb69816d654eae2cc535938c04de2fe3e2873b63fda8442e0a504a926c6&')
                         .setFooter({ text: 'Boostania Ticket Bot!', iconURL: Icons.modIcon })
-                        .setColor('#00FF00'); 
+                        .setColor('#00FF00')
+                        .setTimestamp();
                         
 
                         const button = new ButtonBuilder()
@@ -176,5 +177,6 @@ module.exports = async (client) => {
         }
     });
 };
+
 
 
